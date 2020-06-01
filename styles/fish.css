@@ -3,11 +3,30 @@
 }
 
 .fish {
-    background-color: mediumvioletred;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #def4f0;
+    border: black 1px double;
 }
 
+.fish__details {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    flex: 1 0 50px;
+    background-color: #74d4c0;
+    border: black 5px double;
+}
 
 .fish__picture {
+    margin: 0 auto;
     max-width: 15rem;
-    max-height: 15rem;
+    height: auto;
+    box-shadow: 10px 5px 10px;   
 }
+
+.fish__details:hover {
+    transform: scale(1.2);
+}
+
