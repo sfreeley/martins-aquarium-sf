@@ -1,13 +1,15 @@
-.locationList {
-    background-color: mediumaquamarine;
-}
+
 
 .location {
-    background-color: mediumseagreen;
+    background-color: #def4f0;   
+    border: black 1px double;
+    margin: 10px;
+    
 }
 
 
 .location__picture {
-    max-width: 15rem;
+    margin: auto;
+    max-width: 40rem;
     max-height: 15rem;
 }
