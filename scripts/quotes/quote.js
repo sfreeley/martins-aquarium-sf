@@ -3,12 +3,6 @@ const quoteConversion = (quoteObject) => {
     <section class="quote">
     ${quoteObject.quote}
     </section>
-    <section class="quote"> 
-    ${quoteObject.quote}
-    </section>
-    <section class="quote">
-    ${quoteObject.quote}
-    </section>
     `
     return quoteHTMLRepresentation;
 }
