@@ -1,3 +1,4 @@
+//An array of objects for each individual fish
 const fishCollection = [
     {
         name: "Angus",
