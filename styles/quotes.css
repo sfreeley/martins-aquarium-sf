@@ -11,3 +11,7 @@
     flex: 1;
     border: double 2px black;  
 }
+
+.quote:hover {
+    transform: scale(1.1);
+}
