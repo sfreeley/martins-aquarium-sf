@@ -1,32 +1,29 @@
-.fishList {
-    background-color: mediumorchid;
-}
-
 .fish {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #def4f0;
     border: black 1px double;
+    margin: 10px;
 }
 
 .fish__details {
     display: flex;
     flex-direction: column;
-    margin: 20px;
-    flex: 1 0 50px;
+    margin: 10px;
+    flex: 1;
     background-color: #74d4c0;
     border: black 5px double;
 }
 
 .fish__picture {
-    margin: 0 auto;
+    margin: auto;
     max-width: 15rem;
-    height: auto;
+    height: 10rem;
     box-shadow: 10px 5px 10px;   
 }
 
 .fish__details:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 

@@ -7,7 +7,7 @@
 
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;  
 }
 
 .underTheBanner {
@@ -17,10 +17,14 @@
 
 .underTheBanner__left {
     display: flex;
-    flex-direction: column;
     flex: 4;
+    flex-direction: column;
 }
 
 .underTheBanner__right {
     flex: 1;
+    border: 2px black double;
+    margin: 5px;
+    background-image: url("../images/aquarium.jpg");
+
 }

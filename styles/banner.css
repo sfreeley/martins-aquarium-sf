@@ -1,3 +1,13 @@
 .banner {
-    background-color: darkgoldenrod;
+    display: flex;
+}
+
+.banner__fish_image {
+    justify-content: flex-start;
+    width: 200px; 
+}
+
+.banner__title {
+    align-self: flex-end;
+    font-size: 60px;
 }
