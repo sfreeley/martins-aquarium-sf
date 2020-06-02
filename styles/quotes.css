@@ -6,8 +6,8 @@
 }
 
 .quote {
+    align-content: space-between;
     background-color: #74d4c0;
     flex: 1;
-    border: double 2px black;
-    
+    border: double 2px black;  
 }
