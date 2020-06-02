@@ -1,19 +1,13 @@
 .banner {
-    background-color: #d9455f;
-    height: auto;
-}
-
-.banner__logo {
     display: flex;
-    
-    
 }
 
 .banner__fish_image {
-    width: 20rem;
+    justify-content: flex-start;
+    width: 200px; 
 }
 
 .banner__title {
-    text-align: center;
-    font-size: 40px;
+    align-self: flex-end;
+    font-size: 60px;
 }

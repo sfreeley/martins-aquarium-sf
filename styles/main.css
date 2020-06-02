@@ -7,9 +7,8 @@
 
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;  
 }
-
 
 .underTheBanner {
     display: flex;
@@ -24,4 +23,10 @@
 
 .underTheBanner__right {
     flex: 1;
+
+}
+
+.nav__footer {
+    background-color: #def4f0;
+    
 }

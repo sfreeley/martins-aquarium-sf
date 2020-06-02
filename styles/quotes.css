@@ -1,7 +1,13 @@
 .quoteList {
-    background-color: ;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-between;
+    margin: 5px;
 }
 
 .quote {
-    background-color: yellow;
+    background-color: #74d4c0;
+    flex: 1;
+    border: double 2px black;
+    
 }
