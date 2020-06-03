@@ -3,7 +3,6 @@
 
 const fishConverter = (fishObject) => {
     const fishHTMLRepresentation = `
-
     <div class="fish__details">
         <img class="fish__picture" src=${fishObject.picture}
             alt="${fishObject.name} the ${fishObject.species}" />
@@ -16,6 +15,5 @@ const fishConverter = (fishObject) => {
         </ul>
     </div>
 `
-
 return fishHTMLRepresentation;
 }

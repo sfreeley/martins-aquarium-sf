@@ -1,13 +1,42 @@
-const fishList = () => {
- // Iterate the collection of fish objects (this is to ensure that every object you have in your array gets into the HTML)
-    for (currentFishObject of fishCollection) {
-        // Convert the current fish to its HTML representation (calling the function fishConverter and putting in the object of the fishCollection)
-        const fishHTML = fishConverter(currentFishObject);
+// Function to show holy fish in the browser
 
-        // Find the <section> element in index.html (needed to do section because my CSS flexbox elements were on the section ".fish" class and not on ".fishList")
-        const fishSectionElement = document.querySelector(".fish");
+const showHolyFish = () => {
+    const fishObjectsArray = mostHolyFish();
 
-        // Put the fish HTML representation inside the <section> element (changing the contents under <section> and giving it the value (ie the HTML) of the fishConversion function</section>)
-        fishSectionElement.innerHTML += fishHTML;
+    //looping through the fishObjectsArray that contains all the objects with multiples of 3
+    for (const fishObject of fishObjectsArray) {
+        //calling the function with the value of the HTML
+        const holyHTMLRepresentation = fishConverter(fishObject);
+        //selecting the class ".fish" where you will be putting your HTML 
+        const holySectionElement = document.querySelector(".fish");
+        //adding the HTML between the section element with class ".fish"
+        holySectionElement.innerHTML += holyHTMLRepresentation;
     }
+};
+
+// Function to show soldier fish in the browser
+const showSoldierFish = () => {
+    const fishObjectsArray = soldierFish();
+    for (const fishObject of fishObjectsArray) {
+        const soldierHTMLRepresentation = fishConverter(fishObject);
+        const soldierSectionElement = document.querySelector(".fish");
+        soldierSectionElement.innerHTML += soldierHTMLRepresentation;
+    }
+}
+
+// Function to show common fish in the browser
+const showCommonFish = () => {
+    const fishObjectsArray = nonHolyFish();
+    for (const fishObject of fishObjectsArray) {
+        const commonHTMLRepresentation = fishConverter(fishObject);
+        const commonSectionElement = document.querySelector(".fish");
+        commonSectionElement.innerHTML += commonHTMLRepresentation;
+    }
+}
+
+
+const fishList = () => {
+    showHolyFish();
+    showSoldierFish();
+    showCommonFish();
 }
