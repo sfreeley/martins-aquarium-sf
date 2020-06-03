@@ -74,6 +74,6 @@ const fishCollection = [
         length: "5cm",
         location: "South America",
         food: "Right Twix"
-    },
+    }
 
 ];

@@ -15,7 +15,6 @@ const fishConverter = (fishObject) => {
             <li>Food: ${fishObject.food}</li>
         </ul>
     </div>
-
 `
 
 return fishHTMLRepresentation;
