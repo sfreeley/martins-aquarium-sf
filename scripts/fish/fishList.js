@@ -1,5 +1,4 @@
 // Function to show holy fish in the browser
-
 const showHolyFish = () => {
     const fishObjectsArray = mostHolyFish();
 
@@ -40,3 +39,32 @@ const fishList = () => {
     showSoldierFish();
     showCommonFish();
 }
+
+//selecting the class="typeChoice" dropdown menu
+const fishTypeDropdown = document.querySelector(".typeChoice");
+//select the content area you want to clear 
+const contentTarget = document.querySelector(".fish");
+//function to clear the content of the fishList
+const clearFishList = () => contentTarget.innerHTML = ""
+
+// add the event listener of "change" to detect when the user chooses a dropdown selection
+fishTypeDropdown.addEventListener("change", (clickEvent) => {
+    //get the value of the option chosen by the user
+    const userChoice = clickEvent.target.value 
+
+    //if the user choses Holy, clear the list and only show holy fish
+    if (userChoice === "holy") {
+        // invoking function from above that clears the fishList
+        clearFishList();
+        showHolyFish();
+    } else if (userChoice === "soldier") {
+        clearFishList();
+        showSoldierFish();
+    } else if (userChoice === "plebs") {
+        clearFishList();
+        showCommonFish();
+    } else {
+        fishList();
+    }
+    
+})
