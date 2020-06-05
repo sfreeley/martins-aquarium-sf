@@ -31,3 +31,8 @@
     background-image: url("../images/ocean.jfif");
 
 }
+
+button {
+    background-color: hsla(168, 53%, 64%, 0.63);
+    border-radius: 5px;
+}

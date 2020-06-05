@@ -2,9 +2,12 @@
     display: flex;
     flex-wrap: wrap;
     height: 100%;
+    justify-content: center;
 }
 
 .tip {
+    align-self: flex-start;
+    height: auto;
     font-weight: bold;
     border: double 3px black;
     background-color: hsla(168, 53%, 64%, 0.63); 

@@ -63,8 +63,17 @@ fishTypeDropdown.addEventListener("change", (clickEvent) => {
     } else if (userChoice === "plebs") {
         clearFishList();
         showCommonFish();
-    } else {
+    } else if (userChoice === "all") {
+        clearFishList();
         fishList();
     }
-    
+})
+
+//targeting toggle Fish button with class="toggleFish"
+const fishVisibilityButton = document.querySelector(".toggleFish");
+
+//add event listener to said button
+fishVisibilityButton.addEventListener("click", clickEvent => {
+    //where do you want this click to affect? your fishList to be hidden or not hidden
+    document.querySelector(".fish").classList.toggle("hidden");
 })
