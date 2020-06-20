@@ -1,123 +1,123 @@
 {
-    "fish": [
-        {
-            "name": "Angus",
-            "picture": "https://i.ytimg.com/vi/y6tdGVTgmm4/maxresdefault.jpg",
-            "species": "Parrot Fish",
-            "length": 8,
-            "location": "Sea of Google",
-            "food": "Popcorn"
-        },
-        {
-            "name": "Oliver",
-            "picture": "images/elephantnose_fish.jfif",
-            "species": "Elephantnose Fish",
-            "length": 23,
-            "location": "Africa freshwater",
-            "food": "Twizzlers"
-        },
-        {
-            "name": "Geraldine",
-            "picture": "images/dwarf_puffer_fish.jfif",
-            "species": "Dwarf pufferfish",
-            "length": 3.5,
-            "location": "Southweset India freshwater",
-            "food": "Wonder Bread"
-        },
-        {
-            "name": "Cory",
-            "picture": "images/cory_catfish.jfif",
-            "species": "Cory Catfish",
-            "length": 7.5,
-            "location": "Atlantic Ocean",
-            "food": "Coffee"
-        },
-        {
-            "name": "Whiskey",
-            "picture": "images/rainbow_shark.jpg",
-            "species": "Rainbow Shark Fish",
-            "length": 15,
-            "location": "Asia freshwater",
-            "food": "Eagle Rare Whiskey"
-        },
-        {
-            "name": "Kevin",
-            "picture": "images/clownfish.jfif",
-            "species": "Clownfish",
-            "length": 2,
-            "location": "Great Barrier Reef",
-            "food": "Sour Skittles"
-        },
-        {
-            "name": "Mrs. Magoo",
-            "picture": "images/diamond_goby.jfif",
-            "species": "Diamond Goby",
-            "length": 10,
-            "location": "Artic Ocean",
-            "food": "Lemonheads"
-        },
-        {
-            "name": "Gilmore",
-            "picture": "images/oscar.jfif",
-            "species": "Oscar Fish",
-            "length": 35,
-            "location": "Australia",
-            "food": "Left Twix"
-        },
-        {
-            "name": "Sophie",
-            "picture": "images/mandarinfish.jpg",
-            "species": "Mandarinfish",
-            "length": 5,
-            "location": "South America",
-            "food": "Right Twix"
-        }
-    ],
-    "locations": [
-        {
-            "name": "Caribbean",
-            "picture": "https://caribbeannewsservice.com/now/wp-content/uploads/2017/05/Caribbean-Sea.jpg",
-            "description": "Caribbean: Artisan ugh godard kombucha lyft freegan XOXO raclette enamel pin church-key lacroix franzen skateboard."
-        },
-        {
-            "name": "Rio de Janeiro",
-            "picture": "images/rio.jpg",
-            "description": "Rio de Janeiro: Artisan ugh godard kombucha lyft freegan XOXO raclette enamel pin church-key la croix franzen skateboard."
-        },
-        {
-            "name": "Patagonia",
-            "picture": "images/patagonia.jpg",
-            "description": "Patagonia: Artisan ugh godard kombucha lyft freegan XOXO raclette enamel pin church-key la croix franzen skateboard."
-        },
-        {
-            "name": "Maui",
-            "picture": "images/maui.jpg",
-            "description": "Maui: Artisan ugh godard kombucha lyft freegan XOXO raclette enamel pin church-key la croix franzen skateboard."
-        }
-    ],
-    "quotes": [
-        {
-            "quote": "Forage brooklyn shaman readymade hammock selvage chicken,mumblecore master cleanse post-ironic palo santo copper mug."
-        },
-        {
-            "quote": "Even a fish wouldn't get into trouble if he kept his mouth shut --Unknown"
-        },
-        {
-            "quote": "Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime --Maimonides."
-        }
-    ],
-    "tips": [
-        {
-            "tip": "Poutine viral man braid farm-to-table chambray stumptown. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex libero ullam explicabo voluptates, ipsum officia ratione? Et delectus quam inventore atque in voluptatem quod ipsa fuga, ea dolorum sit deserunt."
-        },
-        {
-            "tip": "Clean your fish tank regularly. They will thank you. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, totam tenetur, rem perspiciatis facere quidem dolorem aliquid accusamus ea maiores, molestias nemo? Exercitationem, rerum. Illo atque est consequatur repellendus laudantium?"
-        },
-        {
-            "tip": "Choose the approriately sized tank. Know your fish. Acclimate your fish! Lorem ipsum dolor, sit amet consectetur adipisicing elit. A nesciunt eius quia quaerat qui facere possimus perspiciatis, voluptas nisi quo iure id numquam dicta aut porro accusamus, rem ipsum consequuntur?"
-        },
-        {
-            "tip": "Condition your water. Don't overstock your tank. When in doubt look it up and ask! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptatibus officia suscipit at quibusdam excepturi. Quas commodi fuga ad. Dolore corporis enim, tempore autem quos debitis blanditiis neque illo! Accusantium?"
-        }
-    ]
+  "fish": [
+    {
+      "name": "Angus",
+      "picture": "https://i.ytimg.com/vi/y6tdGVTgmm4/maxresdefault.jpg",
+      "species": "Parrot Fish",
+      "length": 8,
+      "location": "Sea of Google",
+      "food": "Popcorn"
+    },
+    {
+      "name": "Oliver",
+      "picture": "images/elephantnose_fish.jfif",
+      "species": "Elephantnose Fish",
+      "length": 23,
+      "location": "Africa freshwater",
+      "food": "Twizzlers"
+    },
+    {
+      "name": "Geraldine",
+      "picture": "images/dwarf_puffer_fish.jfif",
+      "species": "Dwarf pufferfish",
+      "length": 3.5,
+      "location": "Southweset India freshwater",
+      "food": "Wonder Bread"
+    },
+    {
+      "name": "Cory",
+      "picture": "images/cory_catfish.jfif",
+      "species": "Cory Catfish",
+      "length": 7.5,
+      "location": "Atlantic Ocean",
+      "food": "Coffee"
+    },
+    {
+      "name": "Whiskey",
+      "picture": "images/rainbow_shark.jpg",
+      "species": "Rainbow Shark Fish",
+      "length": 15,
+      "location": "Asia freshwater",
+      "food": "Eagle Rare Whiskey"
+    },
+    {
+      "name": "Kevin",
+      "picture": "images/clownfish.jfif",
+      "species": "Clownfish",
+      "length": 2,
+      "location": "Great Barrier Reef",
+      "food": "Sour Skittles"
+    },
+    {
+      "name": "Mrs. Magoo",
+      "picture": "images/diamond_goby.jfif",
+      "species": "Diamond Goby",
+      "length": 10,
+      "location": "Artic Ocean",
+      "food": "Lemonheads"
+    },
+    {
+      "name": "Gilmore",
+      "picture": "images/oscar.jfif",
+      "species": "Oscar Fish",
+      "length": 35,
+      "location": "Australia",
+      "food": "Left Twix"
+    },
+    {
+      "name": "Sophie",
+      "picture": "images/mandarinfish.jpg",
+      "species": "Mandarinfish",
+      "length": 5,
+      "location": "South America",
+      "food": "Right Twix"
+    }
+  ],
+  "locations": [
+    {
+      "name": "Caribbean",
+      "picture": "https://caribbeannewsservice.com/now/wp-content/uploads/2017/05/Caribbean-Sea.jpg",
+      "description": "Caribbean: Artisan ugh godard kombucha lyft freegan XOXO raclette enamel pin church-key lacroix franzen skateboard."
+    },
+    {
+      "name": "Rio de Janeiro",
+      "picture": "images/rio.jpg",
+      "description": "Rio de Janeiro: Artisan ugh godard kombucha lyft freegan XOXO raclette enamel pin church-key la croix franzen skateboard."
+    },
+    {
+      "name": "Patagonia",
+      "picture": "images/patagonia.jpg",
+      "description": "Patagonia: Artisan ugh godard kombucha lyft freegan XOXO raclette enamel pin church-key la croix franzen skateboard."
+    },
+    {
+      "name": "Maui",
+      "picture": "images/maui.jpg",
+      "description": "Maui: Artisan ugh godard kombucha lyft freegan XOXO raclette enamel pin church-key la croix franzen skateboard."
+    }
+  ],
+  "quotes": [
+    {
+      "quote": "Forage brooklyn shaman readymade hammock selvage chicken,mumblecore master cleanse post-ironic palo santo copper mug."
+    },
+    {
+      "quote": "Even a fish wouldn't get into trouble if he kept his mouth shut --Unknown"
+    },
+    {
+      "quote": "Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime --Maimonides."
+    }
+  ],
+  "tips": [
+    {
+      "tip": "Poutine viral man braid farm-to-table chambray stumptown. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex libero ullam explicabo voluptates, ipsum officia ratione? Et delectus quam inventore atque in voluptatem quod ipsa fuga, ea dolorum sit deserunt."
+    },
+    {
+      "tip": "Clean your fish tank regularly. They will thank you. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, totam tenetur, rem perspiciatis facere quidem dolorem aliquid accusamus ea maiores, molestias nemo? Exercitationem, rerum. Illo atque est consequatur repellendus laudantium?"
+    },
+    {
+      "tip": "Choose the approriately sized tank. Know your fish. Acclimate your fish! Lorem ipsum dolor, sit amet consectetur adipisicing elit. A nesciunt eius quia quaerat qui facere possimus perspiciatis, voluptas nisi quo iure id numquam dicta aut porro accusamus, rem ipsum consequuntur?"
+    },
+    {
+      "tip": "Condition your water. Don't overstock your tank. When in doubt look it up and ask! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptatibus officia suscipit at quibusdam excepturi. Quas commodi fuga ad. Dolore corporis enim, tempore autem quos debitis blanditiis neque illo! Accusantium?"
+    }
+  ]
 }
